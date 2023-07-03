@@ -14,28 +14,36 @@ body {
 }
 
 h1 {
-    margin: 30px;
+    margin: 2%;
     font-family: 'Rye', cursive;
     text-shadow: 5px 5px #884A39;
-    font-size: 8rem;
+    font-size: 6vmax;
     color: #C38154;
 }
 
 p {
-    font-size: 2rem;
+    font-size: 3vmax;
     color: #C38154;
     font-family: 'Smokum', cursive;
 }
 
 img {
-    height: 50%;
-    width: 50%;
+    height: 40%;
+    width: 40%;
 }
 
 footer {
-    margin-top: 5%;
+    margin-top: 2%;
     color: #FFC26F;
     text-shadow: 1px 1px #884A39;
     text-align: center;
     font-family: 'Smokum', cursive;
+}
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        width: 100%;
+    }
+
 }
