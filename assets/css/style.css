@@ -15,7 +15,7 @@ body {
 
 h1 {
     margin: 30px;
-    font-family: 'Smokum', cursive;
+    font-family: 'Rye', cursive;
     text-shadow: 5px 5px #884A39;
     font-size: 8rem;
     color: #C38154;
@@ -24,7 +24,7 @@ h1 {
 p {
     font-size: 2rem;
     color: #C38154;
-    font-family: 'Rye', cursive;
+    font-family: 'Smokum', cursive;
 }
 
 img {
@@ -37,5 +37,5 @@ footer {
     color: #FFC26F;
     text-shadow: 1px 1px #884A39;
     text-align: center;
-    font-family: 'Rye', cursive;
+    font-family: 'Smokum', cursive;
 }
