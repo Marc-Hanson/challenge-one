@@ -1,6 +1,6 @@
 # Lucky Dice!
 
-Lucky Dice is a basic dice rolling game! Once the page loads you will be given a random dice roll between 1 and 6, your computer opponent will be given the same! Who will win in this game of purest chance? Are you feeling lucky!?
+Lucky Dice is a basic dice rolling game! Once the page loads you will be given a random dice roll between 1 and 6, and the computer opponent will be given the same! Who will win in this game of purest chance? Are you feeling lucky!?
 
 ![Responsive Mockup](assets/images/readme/responsive.jpg)
 
@@ -119,6 +119,7 @@ Github Repository or project - https://marc-hanson.github.io/challenge-one/
 ## Credits
 
 - All images used on this site were taken from [Pixabay](https://pixabay.com/users/clker-free-vector-images-3736/)
+- Color palette was taken from Colorhunt.io
 - The inspiration for this site is taken from Angela Yu's The Complete 2023 Web Development Bootcamp on Udemy.
 
-[Back to top](# Lucky Dice!)
+[Back to top](#lucky-dice)
