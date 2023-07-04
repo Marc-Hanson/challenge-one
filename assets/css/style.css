@@ -10,32 +10,34 @@
 }
 
 body {
-    background-color: #F9E0BB;
+    background-color: #FFF8CD;
 }
 
 h1 {
     margin: 2%;
     font-family: 'Rye', cursive;
-    text-shadow: 5px 5px #884A39;
+    text-shadow: 5px 5px #646464;
     font-size: 6vmax;
-    color: #C38154;
+    color: #FF9642;
 }
 
 p {
     font-size: 3vmax;
-    color: #C38154;
+    color: #FF9642;
     font-family: 'Smokum', cursive;
 }
 
-img {
-    height: 40%;
-    width: 40%;
+#player-choice,
+#opponent-choice {
+    height: 12vmax;
+    width: 12vmax;
+    padding: 0 6vmax;
 }
 
 footer {
     margin-top: 2%;
-    color: #FFC26F;
-    text-shadow: 1px 1px #884A39;
+    color: #FFE05D;
+    text-shadow: 1px 1px #646464;
     text-align: center;
     font-family: 'Smokum', cursive;
 }
@@ -44,6 +46,11 @@ footer {
 
     .container {
         width: 100%;
+    }
+
+    footer,
+    h1 {
+        text-shadow: none;
     }
 
 }
