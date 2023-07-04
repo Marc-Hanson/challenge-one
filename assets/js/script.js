@@ -10,9 +10,9 @@ opponent.setAttribute("src", "assets/images/dice" + opponentsDice + ".webp");
 
 // Determines winner. //
 if (playersDice > opponentsDice) {
-    document.querySelector('h1').innerHTML = "You win!"
+    document.querySelector('h1').innerHTML = "You win!";
 } else if(opponentsDice > playersDice) {
-    document.querySelector('h1').innerHTML = "You Lose!"
+    document.querySelector('h1').innerHTML = "You Lose!";
 } else {
-    document.querySelector('h1').innerHTML = "It's a draw!"
+    document.querySelector('h1').innerHTML = "It's a draw!";
 }

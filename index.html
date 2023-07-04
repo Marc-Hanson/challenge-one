@@ -2,42 +2,42 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A basic game of chance, rolling dice against a computer opponent.">
-    <meta name="keywords" content="dice, game, luck, roll">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rye&family=Smokum&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A basic game of chance, rolling dice against a computer opponent." />
+    <meta name="keywords" content="dice, game, luck, roll" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rye&family=Smokum&display=swap" rel="stylesheet" />
     <title>Lucky Dice!</title>
 </head>
 
 <body>
     <div class="container">
         <h1>Welcome to Lucky Dice!</h1>
-
+        <!-- Players area -->
         <div class="dice">
             <p>Player</p>
             <img id="player-choice" src="assets/images/dice1.webp"
-                alt="An image of a dice showing numbers between one and six.">
+                alt="An image of a dice showing numbers between one and six." />
         </div>
-
+        <!-- Opponents area -->
         <div class="dice">
             <p>Opponent</p>
             <img id="opponent-choice" src="assets/images/dice1.webp"
-                alt="An image of a dice showing numbers between one and six.">
+                alt="An image of a dice showing numbers between one and six." />
         </div>
-
     </div>
 
+    <footer>
+        <h2>Instructions:</h2>
+        <p>Hit refresh to reroll the dice. The highest roll wins!</p>
+    </footer>
+    <!-- Javascript link -->
     <script src="assets/js/script.js"></script>
 </body>
-<footer>
-    <h2>Instructions:</h2>
-    <p>Hit refresh to reroll the dice. The highest roll wins!</p>
-</footer>
 
 </html>
