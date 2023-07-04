@@ -103,7 +103,7 @@ Github Repository or project - https://marc-hanson.github.io/challenge-one/
 
 ### Fork Project
 
-1. On GitHub, go to [marc-hanson/portfolio-two](https://marc-hanson.github.io/challenge-one/).
+1. On GitHub, go to [marc-hanson/challenge-one/](https://marc-hanson.github.io/challenge-one/).
 2. In the top right, click "Fork".
 
 ### Clone Project
@@ -121,4 +121,4 @@ Github Repository or project - https://marc-hanson.github.io/challenge-one/
 - All images used on this site were taken from [Pixabay](https://pixabay.com/users/clker-free-vector-images-3736/)
 - The inspiration for this site is taken from Angela Yu's The Complete 2023 Web Development Bootcamp on Udemy.
 
-[Back to top](#Lucky Dice!)
+[Back to top](# Lucky Dice!)
