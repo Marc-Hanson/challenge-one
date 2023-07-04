@@ -2,11 +2,15 @@
 
 Lucky Dice is a basic dice rolling game! Once the page loads you will be given a random dice roll between 1 and 6, your computer opponent will be given the same! Who will win in this game of purest chance? Are you feeling lucky!?
 
-![Responsive Mockup](assets/images/readme/)
+![Responsive Mockup](assets/images/readme/responsive.jpg)
+
+The Lucky Dice site is live and is currently hosted [HERE!](https://marc-hanson.github.io/challenge-one/)
 
 ## Features
 
 The game was styled with a feeling for the wild west and gambling in an old timey saloon. The fonts chosen: 'Rye' and 'Smokum' both push that theme as well as a sunset color palette of yellows, oranges and browns.
+
+![Color Palette](assets/images/readme/palette.jpg)
 
 ### Existing Features
 
@@ -14,19 +18,19 @@ The game was styled with a feeling for the wild west and gambling in an old time
 
   - Featured at the top of the page, the heading is used to welcome the user to the page. Once the dice have been rolled the heading will display the winner or loser of the game.
 
-![Heading](assets/images/readme/)
+![Heading](assets/images/readme/heading.jpg)
 
 - **The Game Area**
 
   - This section will display the outcomes of both the players dice and your opponents dice.
 
-![Game](assets/images/readme/)
+![Game](assets/images/readme/game.jpg)
 
 - **Instructions**
 
   - This section gives the user playing instructions and the rules of the game.
 
-![Instructions](assets/images/readme/)
+![Instructions](assets/images/readme/instructions.jpg)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
@@ -34,63 +38,87 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### Features Left to Implement
 
-- Another feature idea
+- Scoreboard
+- Event Listeners to allow a click on the dice instead of page refresh.
 
 ## Testing
 
-The game has been tested across Chrome, Firefox, Safari and Edge. As well as on a range of different screen sizes including Laptop, Tablet and Mobile.
+- The website was constantly tested during development using Chrome development tools.
+- Javascipt was ran after every new function to ensure it was behaving as intended.
+- Website tested in Chrome, Firefox and Microsoft Edge.
+- Website was tested across a range of devices including laptops, tablets and mobiles.
+
+### Testing During Development
+
+- A random number variable was created for the player and opponent and tested with 'console.log()'.
+- The images were then updated using this result and tested on a 'python3 http.server'.
+- The final game was pushed to github and tested on multiple devices, all file paths began with a / which resulted in links between Javascript and CSS pages as well as images to display not working correctly. This was later fixed.
 
 ### Validator Testing
+
+- HTML
+  - HTML pages passed validation on W3C. <br>
+    ![index.html validation](/assets/images/readme/html.jpg)
+- CSS
+  - CSS page passed validation on W3C. <br>
+    ![style.css validation](/assets/images/readme/css.jpg)
+- LIGHTHOUSE
+  - Prefect scores across Lighthouse. <br>
+    ![Lighthouse score](/assets/images/readme/lighthouse.jpg)
+- JSHINT
+  - All Javascript passed through JSHint, unused functions are ran through the HTML onclick property. ES8 warnings are due to async functions being used in most of the games functions. <br>
+    ![JSHint vlidation](assets/images/readme/javascript.jpg)
 
 ### Unfixed Bugs
 
 None.
 
+## Technologies Used
+
+### Main Languages Used
+
+- HTML5
+- CSS3
+- Javascript
+
+### Frameworks, Libraries & Programs Used
+
+- Am I Responsive? - to ensure the project looked good across all devices.
+- CodeAnywhere - was the chosen IDE to write both HTML and CSS before pushing the project to Github.
+- GitHub - to import the CodeInstitute template from and to store my repository.
+- VSCode - used to keep work on local versions of the site.
+
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
+### Using GitHub Pages
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows:
-  - In the GitHub repository, navigate to the Settings tab
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+Github Repository or project - https://marc-hanson.github.io/challenge-one/
 
-The live link can be found here - https://code-institute-org.github.io/love-maths/
+1. Click the 'Settings' Tab.
+2. Scroll Down to the Git Hub Pages Heading.
+3. Select 'Main Branch' as the source.
+4. The Page will reload 'Settings' again.
+5. Scroll to GitHub pages heading and there will now be a clickable link https://marc-hanson.github.io/challenge-one/
+6. Click the link for the live deployed page.
+
+### Fork Project
+
+1. On GitHub, go to [marc-hanson/portfolio-two](https://marc-hanson.github.io/challenge-one/).
+2. In the top right, click "Fork".
+
+### Clone Project
+
+1. Go to the main page of the repository.
+2. Above the file list, click "Code".
+3. Select HTTPS, SSH, or GitHub CLI and then click copy to clone it.
+4. Open Git Bash.
+5. Change the location of your cloned repository.
+6. Type `git clone` and then paste the URL you copied.
+7. Press “Enter” to create you
 
 ## Credits
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
+- All images used on this site were taken from [Pixabay](https://pixabay.com/users/clker-free-vector-images-3736/)
+- The inspiration for this site is taken from Angela Yu's The Complete 2023 Web Development Bootcamp on Udemy.
 
-You can break the credits section up into Content and Media, depending on what you have included in your project.
-
-### Content
-
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-### Media
-
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work!
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write a Git Commit Message
-
-  - Make sure to keep the messages in the imperative mood
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept.
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process!
+[Back to top](#Lucky Dice!)
